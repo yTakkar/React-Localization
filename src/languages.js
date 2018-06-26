@@ -1,4 +1,4 @@
-export default {
+const languages = {
   english: {
     helloWorld: 'Hello World',
     goodMorning: 'Good Morning',
@@ -24,3 +24,7 @@ export default {
     allGood: 'सर्व उत्तम'
   }
 }
+
+export const languagesArray = () => Object.keys(languages)
+
+export default languages

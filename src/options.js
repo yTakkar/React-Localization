@@ -1,5 +1,5 @@
 import React from 'react'
-import languages from './languages'
+import { languagesArray } from './languages'
 
 const SelectInput = () => {
   let Cap = str => str.charAt(0).toUpperCase() + str.substr(1)
@@ -7,7 +7,7 @@ const SelectInput = () => {
   return (
     <React.Fragment>
       <option value="">Select Language</option>
-      {Object.keys(languages).map(language => (
+      {languagesArray().map(language => (
         <option key={language} value={language}>
           {Cap(language)}
         </option>

@@ -1,9 +1,10 @@
 import React from 'react'
 import Context from './Context'
+import { languagesArray } from './languages'
 
 class Provider extends React.Component {
   state = {
-    language: 'english'
+    language: languagesArray()[0]
   }
 
   actions = () => ({
