@@ -1,5 +1,5 @@
 {
-  "name": "localization-with-react-localization",
+  "name": "react-localization",
   "version": "1.0.0",
   "description": "",
   "keywords": ["localization", "render-props", "context-api"],
