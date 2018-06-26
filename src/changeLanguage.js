@@ -5,13 +5,16 @@ import Options from './options'
 const ChangeLanguage = () => {
   return (
     <Context.Consumer>
-      {({ actions }) => {
+      {({ state, actions }) => {
         let handleChange = e => actions.changeLanguage(e.target.value)
 
         return (
-          <select value="" onChange={handleChange}>
-            <Options />
-          </select>
+          <React.Fragment>
+            <select value="" onChange={handleChange}>
+              <Options />
+            </select>{' '}
+            ({state.language})
+          </React.Fragment>
         )
       }}
     </Context.Consumer>

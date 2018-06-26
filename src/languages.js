@@ -11,7 +11,7 @@ const languages = {
     howRU: 'क्या हाल है',
     allGood: 'सब अच्छा'
   },
-  gujrati: {
+  gujarati: {
     helloWorld: 'હેલ્લો વિશ્વ',
     goodMorning: 'સુપ્રભાત',
     howRU: 'તમે કેમ છો',
