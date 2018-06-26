@@ -1,12 +1,12 @@
 import React from 'react'
-import GetLocalizedString from '../getLocalizedString'
+import LocalizedMessage from '../LocalizedMessage'
 
 class AllGood extends React.Component {
   render() {
     return (
-      <GetLocalizedString what="allGood">
+      <LocalizedMessage what="allGood">
         {string => <h1>{string}</h1>}
-      </GetLocalizedString>
+      </LocalizedMessage>
     )
   }
 }

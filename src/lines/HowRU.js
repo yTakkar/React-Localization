@@ -1,10 +1,10 @@
 import React from 'react'
-import GetLocalizedString from '../getLocalizedString'
+import LocalizedMessage from '../LocalizedMessage'
 
 const HowRU = () => (
-  <GetLocalizedString what="howRU">
+  <LocalizedMessage what="howRU">
     {string => <h1>{string}</h1>}
-  </GetLocalizedString>
+  </LocalizedMessage>
 )
 
 export default HowRU
