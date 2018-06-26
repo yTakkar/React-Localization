@@ -1,5 +1,5 @@
 import React from 'react'
-import { languagesArray } from './languages'
+import { languagesArray } from '../languages'
 
 const Options = () => {
   let Cap = str => str.charAt(0).toUpperCase() + str.substr(1)

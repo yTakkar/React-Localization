@@ -1,5 +1,5 @@
 import React from 'react'
-import Context from './Context'
+import Context from '../Context'
 import Options from './options'
 
 const ChangeLanguage = () => {

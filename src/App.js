@@ -1,5 +1,5 @@
 import React from 'react'
-import ChangeLanguage from './changeLanguage'
+import ChangeLanguage from './changeLanguage/changeLanguage'
 import Visit from './visit'
 
 import HelloWorld from './lines/HelloWorld'
