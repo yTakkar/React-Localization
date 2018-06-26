@@ -4,7 +4,7 @@ import { languagesArray } from './languages'
 
 class Provider extends React.Component {
   state = {
-    language: languagesArray()[0]
+    language: languagesArray[0]
   }
 
   actions = () => ({

@@ -25,6 +25,6 @@ const languages = {
   }
 }
 
-export const languagesArray = () => Object.keys(languages)
+export const languagesArray = Object.keys(languages)
 
 export default languages
