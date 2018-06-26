@@ -1,5 +1,6 @@
 import React from 'react'
 import ChangeLanguage from './changeLanguage'
+import Visit from './visit'
 
 import HelloWorld from './lines/HelloWorld'
 import GoodMorning from './lines/GoodMorning'
@@ -9,6 +10,7 @@ import AllGood from './lines/AllGood'
 const App = () => {
   return (
     <div>
+      <Visit />
       <ChangeLanguage />
       <HelloWorld />
       <GoodMorning />
