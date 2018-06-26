@@ -1,8 +1,8 @@
 {
   "name": "react-localization-with-react-localization",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": null,
+  "keywords": ["localization", "render-props", "context-api"],
   "main": "src/index.js",
   "dependencies": {
     "prop-types": "15.6.2",
