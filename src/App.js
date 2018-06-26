@@ -4,6 +4,7 @@ import ChangeLanguage from './changeLanguage'
 import HelloWorld from './lines/HelloWorld'
 import GoodMorning from './lines/GoodMorning'
 import HowRU from './lines/HowRU'
+import AllGood from './lines/AllGood'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <HelloWorld />
       <GoodMorning />
       <HowRU />
+      <AllGood />
     </div>
   )
 }

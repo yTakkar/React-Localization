@@ -3,7 +3,7 @@ import Context from './Context'
 
 class Provider extends React.Component {
   state = {
-    language: 'en'
+    language: 'english'
   }
 
   actions = () => ({

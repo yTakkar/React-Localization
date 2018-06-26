@@ -1,14 +1,14 @@
 import React from 'react'
 import GetLocalizedString from '../getLocalizedString'
 
-class HelloWorld extends React.Component {
+class AllGood extends React.Component {
   render() {
     return (
-      <GetLocalizedString what="helloWorld">
+      <GetLocalizedString what="allGood">
         {string => <h1>{string}</h1>}
       </GetLocalizedString>
     )
   }
 }
 
-export default HelloWorld
+export default AllGood
