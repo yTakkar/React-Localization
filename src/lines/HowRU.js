@@ -2,9 +2,9 @@ import React from 'react'
 import LocalizedMessage from '../LocalizedMessage'
 
 const HowRU = () => (
-  <LocalizedMessage what="howRU">
-    {string => <h1>{string}</h1>}
-  </LocalizedMessage>
+  <h1>
+    <LocalizedMessage what="howRU" />
+  </h1>
 )
 
 export default HowRU

@@ -4,9 +4,9 @@ import LocalizedMessage from '../LocalizedMessage'
 class HelloWorld extends React.Component {
   render() {
     return (
-      <LocalizedMessage what="helloWorld">
-        {string => <h1>{string}</h1>}
-      </LocalizedMessage>
+      <h1>
+        <LocalizedMessage what="helloWorld" />
+      </h1>
     )
   }
 }

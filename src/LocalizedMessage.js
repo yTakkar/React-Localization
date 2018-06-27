@@ -1,16 +1,16 @@
 import React from 'react'
 import strings from './localization'
-import { func, string } from 'prop-types'
+import { string } from 'prop-types'
 import Context from './Context'
 
 class UpdateLanguage extends React.Component {
   render() {
-    let { children, what } = this.props
+    let { what } = this.props
     return (
       <Context.Consumer>
         {({ state }) => {
           strings.setLanguage(state.language)
-          return <React.Fragment>{children(strings[what])}</React.Fragment>
+          return strings[what]
         }}
       </Context.Consumer>
     )
@@ -18,7 +18,6 @@ class UpdateLanguage extends React.Component {
 }
 
 UpdateLanguage.propTypes = {
-  children: func.isRequired,
   what: string.isRequired
 }
 
