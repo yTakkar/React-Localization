@@ -5,7 +5,7 @@ class HelloWorld extends React.Component {
   render() {
     return (
       <h1>
-        <LocalizedMessage what="helloWorld" />
+        <LocalizedMessage of="helloWorld" />
       </h1>
     )
   }

@@ -5,7 +5,7 @@ class GoodMorning extends React.Component {
   render() {
     return (
       <h1>
-        <LocalizedMessage what="goodMorning" />
+        <LocalizedMessage of="goodMorning" />
       </h1>
     )
   }

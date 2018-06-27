@@ -5,7 +5,7 @@ class AllGood extends React.Component {
   render() {
     return (
       <h1>
-        <LocalizedMessage what="allGood" />
+        <LocalizedMessage of="allGood" />
       </h1>
     )
   }

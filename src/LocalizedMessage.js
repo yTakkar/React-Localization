@@ -5,12 +5,12 @@ import Context from './Context'
 
 class UpdateLanguage extends React.Component {
   render() {
-    let { what } = this.props
+    let { of } = this.props
     return (
       <Context.Consumer>
         {({ state }) => {
           strings.setLanguage(state.language)
-          return strings[what]
+          return strings[of]
         }}
       </Context.Consumer>
     )
@@ -18,7 +18,7 @@ class UpdateLanguage extends React.Component {
 }
 
 UpdateLanguage.propTypes = {
-  what: string.isRequired
+  of: string.isRequired
 }
 
 export default UpdateLanguage

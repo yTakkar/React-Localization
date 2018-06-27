@@ -3,7 +3,7 @@ import LocalizedMessage from '../LocalizedMessage'
 
 const HowRU = () => (
   <h1>
-    <LocalizedMessage what="howRU" />
+    <LocalizedMessage of="howRU" />
   </h1>
 )
 
