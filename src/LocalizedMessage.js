@@ -1,5 +1,5 @@
 import React from 'react'
-import strings from './localization'
+import Localization from './localization'
 import { string } from 'prop-types'
 import Context from './Context'
 
@@ -9,8 +9,9 @@ class UpdateLanguage extends React.Component {
     return (
       <Context.Consumer>
         {({ state }) => {
-          strings.setLanguage(state.language)
-          return strings[of]
+          console.log(Localization)
+          Localization.setLanguage(state.language)
+          return Localization[of]
         }}
       </Context.Consumer>
     )
