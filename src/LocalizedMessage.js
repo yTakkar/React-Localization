@@ -9,7 +9,6 @@ class UpdateLanguage extends React.Component {
     return (
       <Context.Consumer>
         {({ state }) => {
-          console.log(Localization)
           Localization.setLanguage(state.language)
           return Localization[of]
         }}
